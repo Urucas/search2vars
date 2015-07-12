@@ -4,7 +4,8 @@
   "description": "Parsing url search to vars",
   "main": "node/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha tests/* --compilers js:babel/register -t 15s",
+    "build": "make clean && make node"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/Urucas/search2vars",
   "devDependencies": {
     "babel": "^5.6.14",
+    "faker": "^3.0.0",
     "is-plain-obj": "^1.0.0",
     "mocha": "^2.2.5"
   }

@@ -1,6 +1,6 @@
 {
   "name": "search2vars",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parsing url search to vars",
   "main": "node/index.js",
   "scripts": {

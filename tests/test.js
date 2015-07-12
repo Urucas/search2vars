@@ -2,7 +2,7 @@ import search2vars from '../lib';
 import isPlainObj from 'is-plain-obj';
 import faker from 'faker';
 
-describe("searchToVars tests", () => {
+describe("searchToVars module tests", () => {
   
   it("Test return value is plain object", (done) => {
     let vars = search2vars("?id=com.urucas.wifime&locale=en");
@@ -26,6 +26,6 @@ describe("searchToVars tests", () => {
     done();
   });
 
-
-
 });
+
+

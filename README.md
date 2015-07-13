@@ -1,5 +1,5 @@
 # search2vars [![Build Status](https://travis-ci.org/Urucas/search2vars.svg)](https://travis-ci.org/Urucas/search2vars)
-Parsing url search to vars
+Parsing url search query to object
 
 #Usage
 ```npm install --save search2vars```
